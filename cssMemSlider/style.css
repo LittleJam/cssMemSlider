@@ -1,0 +1,21 @@
+.slider section {
+  display: none;
+}
+
+.slider input {
+  border-bottom: 1px solid #ffffff;
+}
+
+.slider #slide1:checked ~ #content1,
+.slider #slide2:checked ~ #content2,
+.slider #slide3:checked ~ #content3,
+.slider #slide4:checked ~ #content4,
+.slider #slide5:checked ~ #content5,
+.slider #slide6:checked ~ #content6 {
+  display: block;
+}
+
+section img {
+  width: 200px;
+  height: auto;
+}
